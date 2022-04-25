@@ -1,14 +1,6 @@
-terraform {
-  required_providers {
-    tfe = "~> 0.23.0"
-  }
-}
-
 provider "tfe" {
-  version = "~> 0.23.0"
   token   = var.tfc_token
 }
-
 locals {
   project = jsondecode(file(var.project_definition_file_path))
 
