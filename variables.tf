@@ -10,11 +10,6 @@ variable "organization" {
   description = "The name of the Terraform Cloud / Enterprise organization in which the workspace and other resources should be created."
 }
 
-variable "tfc_token" {
-  type        = string
-  description = "Token with administrative access to Terraform cloud organization targeted by the module."
-}
-
 variable "team_access_level" {
   type        = string
   default     = "plan"
