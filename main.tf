@@ -1,6 +1,3 @@
-provider "tfe" {
-  token = var.tfc_token
-}
 locals {
   project = jsondecode(file(var.project_definition_file_path))
 

@@ -58,7 +58,6 @@ No modules.
 | <a name="input_project_definition_file_path"></a> [project\_definition\_file\_path](#input\_project\_definition\_file\_path) | Full path to JSON file containing project definition structure. (project.json by convention) | `string` | `"project.json"` | no |
 | <a name="input_secret_access_key"></a> [secret\_access\_key](#input\_secret\_access\_key) | An AWS secret access key. | `string` | `null` | no |
 | <a name="input_team_access_level"></a> [team\_access\_level](#input\_team\_access\_level) | The value indicating the level of access (permission set) that the TF Cloud team being created should have in the workspace being created. | `string` | `"plan"` | no |
-| <a name="input_tfc_token"></a> [tfc\_token](#input\_tfc\_token) | Token with administrative access to Terraform cloud organization targeted by the module. | `string` | n/a | yes |
 
 ## Outputs
 
